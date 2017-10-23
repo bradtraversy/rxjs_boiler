@@ -25,25 +25,11 @@ Install dependencies (Webpack, Babel, RxJS 5, jQuery)
 $ npm install
 ```
 
-### Compile
-To compile all js to dist/app.bundle.js
-
-```sh
-$ webpack
-```
-To watch run
-```sh
-$ webpack -w
-```
-
 ### Run
-Install live-server globally
-```sh
-$ npm install live-server -g
-```
+RxJS Boiler will use [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server) to compile and serve this project. Just run the script to get started
 
 ```sh
 $ npm start
 ```
 
-Visit [http://localhost:8000](http://localhost:8000)
+Visit [http://localhost:8080](http://localhost:8080) or whatever link `webpack-dev-server` shows depending on if `port:8080` is available on localhost.
